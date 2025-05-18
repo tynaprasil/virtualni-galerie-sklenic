@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fefbf7;
+  padding: 40px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  transition: all 0.5s ease;
+}
+
+.jar {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 1s ease, margin 0.5s ease;
+}
+
+.jar:hover {
+  transform: scale(1.1);
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.8s ease;
+}
+
+#popup.fade-out {
+  opacity: 0;
+}
+
+#note {
+  width: 100px;
+}
+
+#note-text {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.fade-out {
+  animation: fadeOut 0.7s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
