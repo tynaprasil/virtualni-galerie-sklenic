@@ -81,7 +81,7 @@ h1 {
   }
   to {
     opacity: 0;
-    transform: scale(1.2);
+    transform: scale(0.95);
   }
 }
 
