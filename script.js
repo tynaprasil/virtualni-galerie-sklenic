@@ -49,7 +49,7 @@ function releaseJar() {
   popup.classList.add("fade-out");
 
   if (currentJar) {
-    currentJar.classList.add("fade-out"); 
+    currentJar.classList.add("fly-away");
   }
 
   setTimeout(() => {
@@ -57,7 +57,7 @@ function releaseJar() {
     popup.classList.remove("fade-out");
 
     if (currentJar) {
-      currentJar.remove(); 
+      currentJar.remove();
       currentJar = null;
     }
   }, 1000); 
