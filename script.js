@@ -1,14 +1,18 @@
 const traumas = [
-  "tatinek je nejlepsi",
-  "Nedostatek sebevědomí",
-  "Obavy z budoucnosti",
-  "Pocit osamělosti",
-  "Tlak na výkon",
-  "Strach z neúspěchu",
-  "Nedostatek sebevědomí",
-  "Obavy z budoucnosti",
-  "Pocit osamělosti",
-  "Tlak na výkon"
+  "Nemám pocit, že někam patřím",
+  "Bojuju s úzkostí každý den",
+  "Bojím se mluvit o svých problémech",
+  "Pořád se porovnávám s ostatními",
+  "Neumím si říct o pomoc",
+  "Mám pocit, že nejsem dost dobrý",
+  "Často přemýšlím, co by bylo, kdybych tu nebyl",
+  "Mám pocit, že všechno kazím",
+  "Nosím masku, aby mě ostatní měli rádi",
+  "Mám strach, že nikdy nebudu šťastný",
+  "Stydím se za svoje emoce",
+  "Mám problém s důvěrou v lidi",
+  "Mám pocit, že moje pocity nikoho nezajímají",
+  "Obviňuju se za věci, které jsem nemohl ovlivnit"
 ];
 
 const container = document.getElementById("container");
