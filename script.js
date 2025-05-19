@@ -1,7 +1,7 @@
 const traumas = [
   "To, že vše rozebereš do posledního detailu a zhodnotíš z každého možného úhlu, neznamená, že je tvůj závěr odpovídající realitě.",
   "S tvým talentem by mohl do reprezentace každý.",
-  "Jsi pro mě jediný člověk, kterého na světě potřebuju, jsi moje výjimečná holčička, o kterou se budu starat už navždycky. – o měsíc později ztratil zájem a začal být na mě zlý“,
+  "Jsi pro mě jediný člověk, kterého na světě potřebuju, jsi moje výjimečná holčička, o kterou se budu starat už navždycky. – o měsíc později ztratil zájem a začal být na mě zlý",
   "Že tě vyhodili z repre nic neznamená, a nekončí svět. Tvé důvody vyhození byly stejné jako ti říkáme neustále s Ivetou.",
   "Nemusíš tolik mluvit.",
   "I když to nikdy nikomu nepřiznám, chybíš mi.",
